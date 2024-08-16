@@ -10,9 +10,6 @@ pool:
   name: 'BonginkosiHostedPool1'
   demands: 
   - Agent.Name -equals 'BonginkosiHostedAgent1'
-    - msbuild
-    - visualstudio
-    - vstest
   
 variables:
   solution: '**/*.sln'
