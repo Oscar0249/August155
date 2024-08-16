@@ -8,7 +8,8 @@ trigger:
 
 pool:
   name: 'BonginkosiHostedPool1'
-  demands: 'BonginkosiHostedAgent1'
+  demands: 
+  - Agent.Name -equals 'BonginkosiHostedAgent1'
   
 variables:
   solution: '**/*.sln'
